@@ -10,6 +10,16 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/jetty-snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -380,32 +390,32 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-alpn-client</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-client</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-http</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-io</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-security</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.eclipse.jetty.toolchain</groupId>
@@ -416,27 +426,27 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-session</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-util</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty.ee10</groupId>
             <artifactId>jetty-ee10-proxy</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty.ee10</groupId>
             <artifactId>jetty-ee10-servlet</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty.ee10</groupId>
             <artifactId>jetty-ee10-servlets</artifactId>
-            <version>12.1.0.alpha1</version>
+            <version>12.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty.toolchain.setuid</groupId>
